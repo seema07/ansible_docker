@@ -1,0 +1,10 @@
+---
+- hosts: 10.242.138.52
+  user: seema
+
+  tasks:
+   - name: Copy
+   - raw: yum -y install python-simplejson
+
+   - name: start FTP
+  service: name=vsftpd state=started enabled=yes

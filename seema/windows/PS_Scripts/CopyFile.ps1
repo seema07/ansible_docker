@@ -1,0 +1,1 @@
+﻿Copy-Item C:\Users\514356\Documents\*.txt D:\MyWork\docs

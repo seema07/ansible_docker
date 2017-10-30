@@ -1,0 +1,5 @@
+---
+ - hosts: all
+   tasks:
+    - name: Copy file
+      script: PS_Scripts/CopyFile.ps1

@@ -1,0 +1,1 @@
+﻿New-Item D:\SEEMA\sample.txt -type file

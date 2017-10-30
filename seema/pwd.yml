@@ -1,0 +1,5 @@
+---
+ - hosts: all
+   tasks:
+    - name: presentwrkDIR
+      script: PS_Scripts/pwd.ps1

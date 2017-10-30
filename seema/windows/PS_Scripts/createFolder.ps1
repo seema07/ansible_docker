@@ -1,0 +1,1 @@
+﻿New-Item -Path D:\SEEMA -ItemType directory

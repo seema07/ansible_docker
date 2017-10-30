@@ -1,0 +1,11 @@
+---
+ - hosts: all
+   tasks:
+     - name: module creation
+       win_add: 
+            val1: 10
+            val2: 10
+
+
+
+

@@ -1,0 +1,8 @@
+---
+- hosts: all
+  tasks:
+    - name: Create directory
+      file: path=/home/{{item}}/bin  state=directory
+      with_items:
+          - test1
+          - test2

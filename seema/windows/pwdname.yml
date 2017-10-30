@@ -1,0 +1,5 @@
+---
+ - hosts: all
+   tasks:
+    - name: pwd name
+      script: PS_Scripts/pwdname.ps1

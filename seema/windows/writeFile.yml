@@ -1,0 +1,5 @@
+---
+ - hosts: all
+   tasks:
+    - name: write file
+      script: PS_Scripts/writeFile.ps1

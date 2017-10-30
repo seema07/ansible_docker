@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+   - name: Creates directory
+     script: PS_Scripts/createFolder.ps1
