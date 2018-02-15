@@ -1,1 +1,14 @@
-
+IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
+6eaa2420e9f2        13 months ago       /bin/sh -c #(nop) ADD file:8c5cc2418093bdb4d6   759.9 kB            
+6203c1f5df99        21 months ago       /bin/sh -c #(nop) CMD ["/bin/sh" "-c" "servic   0 B                 
+291293961c03        21 months ago       /bin/sh -c #(nop) EXPOSE 8080/tcp               0 B                 
+9e177c31c6bf        21 months ago       /bin/sh -c #(nop) ENV CATALINA_HOME=/var/lib/   0 B                 
+7ec6f9928a70        21 months ago       /bin/sh -c apt-get -y install tomcat7 tomcat7   21.69 MB            
+e837e02ee6df        21 months ago       /bin/sh -c apt-get install -y openjdk-7-jdk     364.8 MB            
+d6f72e2bce5a        22 months ago       /bin/sh -c apt-get update                       21.32 MB            
+7fcfc4bed248        22 months ago       /bin/sh -c #(nop) MAINTAINER SLN                0 B                 
+d0955f21bf24        2 years ago         /bin/sh -c #(nop) CMD [/bin/bash]               0 B                 
+9fec74352904        2 years ago         /bin/sh -c sed -i 's/^#\s*\(deb.*universe\)$/   1.895 kB            
+a1a958a24818        2 years ago         /bin/sh -c echo '#!/bin/sh' > /usr/sbin/polic   194.5 kB            
+f3c84ac3a053        2 years ago         /bin/sh -c #(nop) ADD file:777fad733fc954c0c1   188.1 MB            
+511136ea3c5a        4 years ago                                                         0 B                 Imported from -

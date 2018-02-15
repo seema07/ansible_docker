@@ -1,0 +1,16 @@
+FROM ubuntu-jkd7-tomcat6
+RUN export JAVA_HOME=/EBS/Install/jdk1.7.0_09
+RUN export PATH=$JAVA_HOME/bin:$PATH
+RUN echo $JAVA_HOME
+RUN export JAVA_HOME=/EBS/Install/jdk1.7.0_09;export PATH=$JAVA_HOME/bin:$PATH;/EBS/Install/apache-tomcat-6.0.36/bin/startup.sh 
+EXPOSE 8080:8080
+
+
+JAVA_HOME=/EBS/Install/jdk1.7.0_09
+PATH=$JAVA_HOME/bin:$PATH
+
+
+
+
+
+

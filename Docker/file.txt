@@ -1,0 +1,32 @@
+docker pull 10.242.138.121:8080/repository/library/ubuntu:14.04
+
+dockerfile
+
+FROM 10.242.138.121:5000/repository/library/ubuntu:14.04-jkd7-tomcat6
+RUN export JAVA_HOME=/EBS/Install/jdk1.7.0_09
+RUN export PATH=$JAVA_HOME/bin:$PATH
+
+From ubuntu:14.04
+Run apt-get update
+
+
+docker-make.yml
+
+Combine_image
+ Requires:
+  - ubuntu:14.04
+  - tomcat:7.0
+
+./docker &     --- start docker as background service
+  
+
+http://stackoverflow.com/questions/38695515/can-not-pull-push-images-after-update-docker-to-1-12
+https://github.com/docker/distribution/issues/1980
+http://stackoverflow.com/questions/28180228/docker-daemon-not-starting-after-adding-insecure-registry-option
+http://stackoverflow.com/questions/38695515/can-not-pull-push-images-after-update-docker-to-1-12
+	
+
+
+
+
+error regarding to insecure registry added DOCKER_OPTS="--insecure-registry=docker-registry:5000" in etc/default/docker

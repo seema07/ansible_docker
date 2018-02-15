@@ -1,0 +1,2 @@
+install pip python
+install docker-py 
