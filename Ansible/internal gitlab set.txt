@@ -1,0 +1,25 @@
+Command line instructions
+
+
+Git global setup
+
+git config --global user.name "Daksha Sapkale"
+git config --global user.email "daksha.sapkale@cognizant.com"
+
+Create a new repository
+
+git clone https://10.242.138.101/gitlab/root/academy.git
+cd academy
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+Existing folder or Git repository
+
+cd existing_folder
+git init
+git remote add origin https://10.242.138.101/gitlab/root/academy.git
+git add .
+git commit
+git push -u origin master

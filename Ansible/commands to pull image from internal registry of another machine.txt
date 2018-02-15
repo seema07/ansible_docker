@@ -1,0 +1,82 @@
+
+ 1921  sudo docker push "[10.242.138.121]:5000/library/ubuntu:14.04"
+ 1922  ls
+ 1923  cd..
+ 1924  ls
+ 1925  cd root
+ 1926  cd /root/
+ 1927  ls
+ 1928  cd /usr/bin
+ 1929  ls
+ 1930  cat docker
+ 1931  history
+ 1932  docker images
+ 1933  docker pull 10.242.138.121:5000/library/ubuntu:14.04
+ 1934  echo $http_proxy
+ 1935  cat /etc/default/docker
+ 1936  echo $DOCKER_OPTS
+ 1937  echo $JAVA_HOME
+ 1938  vi /etc/default/docker
+ 1939  service docker stop
+ 1940  docker service stop
+ 1941  sudo stop docker
+ 1942  service docker stop
+ 1943  ls
+ 1944  cd /
+ 1945  ls
+ 1946  cd etc/default/
+ 1947  ls
+ 1948  . /etc/default/docker
+ 1949  service docker stop
+ 1950  docker pull 10.242.138.121:5000/library/ubuntu:14.04
+ 1951  docker -v
+ 1952  which java
+ 1953  which docker
+ 1954  cd /usr/bin/
+ 1955  ls
+ 1956  cat docker
+ 1957  docker -v
+ 1958  which docker
+ 1959  service docker stop
+ 1960  cd /usr/bin/
+ 1961  dockerd
+ 1962  docker ps
+ 1963  dockerd --help
+ 1964  dockerd --help | grep stop
+ 1965  dockerd
+ 1966  dockerd  --stop --pidfile /var/run/docker.pid
+ 1967  start-stop-daemon --stop --pidfile /var/run/docker.pid
+ 1968  docker ps
+ 1969  start-stop-daemon --start
+ 1970  dockerd &
+ 1971  docker ps
+ 1972  vim /etc/docker/key.json
+ 1973  dockerd &
+ 1974  docker ps
+ 1975  docker images
+ 1976  docker pull 10.242.138.121:5000/library/ubuntu:14.04
+ 1977  echo $DOCKER_OPTS
+ 1978  docker -v
+ 1979  docker info
+ 1980  cat /etc/docker/key.json
+ 1981  vim  /etc/docker/key.json
+ 1982  vim /etc/docker/daemon.json
+ 1983  vim /etc/default/docker
+ 1984  vim /etc/docker/daemon.json
+ 1985  docker ps
+ 1986  dockerd  --stop --pidfile /var/run/docker.pid
+ 1987  start-stop-daemon --stop --pidfile /var/run/docker.pid
+ 1988  dockerd &
+ 1989  docker ps
+ 1990  vim /etc/docker/daemon.json
+ 1991  start-stop-daemon --stop --pidfile /var/run/docker.pid
+ 1992  docker ps
+ 1993  dockerd &
+ 1994  docker ps
+ 1995  docker pull 10.242.138.121:5000/library/ubuntu:14.04
+ 1996  docker ps
+ 1997  docker images
+ 1998  history
+ 1999  docker images
+ 2000  history
+root@10:~#
